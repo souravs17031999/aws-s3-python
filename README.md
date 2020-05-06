@@ -44,17 +44,16 @@ aws:s3:::bucket-name and you just need to append "\\" at the end of arn while en
 * Now, again select ```Services``` drop down menu and select ```IAM``` from  ```Security, Identity, & Compliance``` section (you can also search IAM in the search bar and select it).     
 * Now, select Users and click on Add user.    
 
-![aws](/img/iam.JPG)              
+![aws](/img/iam.jpg)              
 
 * Then follow below instructions for creating your IAM roles and getting your credentials.     
-![aws](/img/iam_1.JPG)  
+![aws](/img/iam_1.JPG)              
 
 * Now, select ```AmazonS3FullAccess``` as shown below.    
 
 ![aws](/img/iam_3.JPG)              
 
 * Skip the ```add tags``` section and click on Next.    
-![aws](/img/iam_2.JPG)              
 
 * Now, review your policy and on the screen you have your API access Id and API access secret key , keep them safe by copying it or downloading as csv.       
 
