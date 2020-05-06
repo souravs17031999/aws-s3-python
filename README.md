@@ -55,6 +55,7 @@ aws:s3:::bucket-name and you just need to append "\\" at the end of arn while en
 
 * Skip the ```add tags``` section and click on Next.    
 
-* Now, review your policy and on the screen you have your API access Id and API access secret key , keep them safe by copying it or downloading as csv.       
+* Now, review your policy and on the screen you have your API access Id and API access secret key , keep them safe by copying it or downloading as csv.         
+* Now, you can interface S3 with boto3 (python module) for accessing S3 with your obtained credentials.    
 
 🎉 Great, you have now got your AWS S3 API credentials with full access over s3.   
